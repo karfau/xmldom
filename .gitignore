@@ -6,5 +6,5 @@
 
 # files
 /.*.out
-/.*.log
+/*.log
 

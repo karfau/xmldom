@@ -5,10 +5,10 @@ var DOMParser = require('../../lib/dom-parser').DOMParser;
 var DomJS = require("dom-js").DomJS;
 try{
 	var Libxml = require('libxmljs');
-	console.log('libxml loaded!!')
 }catch(e){
 	console.error(e)
 }
+var COMPAT = process && process.env && process.env.XMLDOM_COMPAT || ''
 
 function xmldom(data){
 	console.time('xmldom');
@@ -70,9 +70,8 @@ function addAttributes(el){
 		child = child.nextSibling;
 	}
 }
-// Create a Test Suite
-wows.describe('XML Node Parse').addBatch({
-    "big file parse":function(){
+var batch = COMPAT ? {/*skip performance tests when testing COMPAT*/} : {
+	"big file parse":function(){
 		var fs = require('fs');
 		var path = require('path')
 		var data = fs.readFileSync(path.resolve(__dirname,'./file-test1.xml'), 'ascii');
@@ -90,7 +89,7 @@ wows.describe('XML Node Parse').addBatch({
 
 		doc1 = doc1.cloneNode(true);
 		addAttributes(doc1.documentElement);
-		
+
 		data = doc1.toString();
 		var t1 = new Date();
 		var doc1 = xmldom(data);
@@ -105,14 +104,14 @@ wows.describe('XML Node Parse').addBatch({
 
 		function xmlReplace(a,v){
 			switch(v){
-			case '&':
-			return '&amp;'
-			case '<':
-			return '&lt;'
-			default:
-			if(v.length>1){
-				return v.replace(/([&<])/g,xmlReplace)
-			}
+				case '&':
+					return '&amp;'
+				case '<':
+					return '&lt;'
+				default:
+					if(v.length>1){
+						return v.replace(/([&<])/g,xmlReplace)
+					}
 			}
 		}
 		xmldomresult = (domjs(doc1+'')+'').replace(/^<\?.*?\?>\s*|<!\[CDATA\[([\s\S]*?)\]\]>/g,xmlReplace)
@@ -120,7 +119,7 @@ wows.describe('XML Node Parse').addBatch({
 		assert.equal(xmldomresult, domjsresult);
 		data = xmldomresult;
 		//console.log(data.substring(100,200))
-		
+
 		var t1 = new Date();
 		var doc1 = xmldom(data);
 		var t2 = new Date();
@@ -131,7 +130,7 @@ wows.describe('XML Node Parse').addBatch({
 		var xmldomTime = t2-t1;
 		var domjsTime = t3-t2;
 		assert.greater(domjsTime, xmldomTime, 'more attribute xml without cdata')
-		
+
 		// assert.equal(xmldomresult, domjsresult);
 		// assert.equal(xmldomresult, domjsresult);
 		// if(xmldomresult !== domjsresult){
@@ -151,5 +150,6 @@ wows.describe('XML Node Parse').addBatch({
 		//
 		// }
 		//console.assert(xmldomresult == domjsresult,xmldomresult.length,i)
-    }
-}).export(module); // Run it
+	}
+}
+wows.describe('XML Node Parse').addBatch(batch).export(module);
