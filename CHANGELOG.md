@@ -1,3 +1,30 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased](https://github.com/xmldom/xmldom/compare/0.4.0...HEAD)
+
+### Merged
+
+- Update eslint-config-prettier -&gt; ^7.2.0 - devDependencies [`#179`](https://github.com/xmldom/xmldom/pull/179)
+- Switch to (only) MIT license [`#178`](https://github.com/xmldom/xmldom/pull/178)
+- test: Use toBe/toStrictEqual instead of toEqual [`#175`](https://github.com/xmldom/xmldom/pull/175)
+- chore: Add karfau as contributor [`#177`](https://github.com/xmldom/xmldom/pull/177)
+- Export DOMException; remove custom assertions; etc. [`#174`](https://github.com/xmldom/xmldom/pull/174)
+- Update eslint-config-prettier -&gt; 7 - devDependencies [`#165`](https://github.com/xmldom/xmldom/pull/165)
+- Update nodemon -&gt; ^2.0.7 - devDependencies [`#170`](https://github.com/xmldom/xmldom/pull/170)
+- build(deps): bump node-notifier from 8.0.0 to 8.0.1 [`#169`](https://github.com/xmldom/xmldom/pull/169)
+- Update eslint -&gt; ^7.18.0 - devDependencies [`#162`](https://github.com/xmldom/xmldom/pull/162)
+- Update eslint-plugin-prettier -&gt; ^3.3.1 - devDependencies [`#164`](https://github.com/xmldom/xmldom/pull/164)
+- Update actions/setup-node action -&gt; 2 - action [`#167`](https://github.com/xmldom/xmldom/pull/167)
+- Update prettier -&gt; ^2.2.1 - devDependencies [`#163`](https://github.com/xmldom/xmldom/pull/163)
+- build(deps): bump ini from 1.3.5 to 1.3.8 [`#166`](https://github.com/xmldom/xmldom/pull/166)
+- Update eslint -&gt; ^7.12.1 - devDependencies [`#157`](https://github.com/xmldom/xmldom/pull/157)
+- Update jest -&gt; ^26.6.3 - devDependencies [`#161`](https://github.com/xmldom/xmldom/pull/161)
+- Update jest -&gt; ^26.6.2 - devDependencies [`#159`](https://github.com/xmldom/xmldom/pull/159)
+- Update eslint-config-prettier -&gt; ^6.15.0 - devDependencies [`#158`](https://github.com/xmldom/xmldom/pull/158)
 
 <!-- auto-changelog-above -->
 ## 0.4.0
