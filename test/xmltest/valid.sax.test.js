@@ -2,7 +2,7 @@
 
 const xmltest = require('xmltest')
 const { SaxHandler } = require('xmltest/sax')
-const { parse } = require('../../lib/sax')
+const { XMLReader } = require('../../lib/sax')
 
 describe('xmltest/valid', () => {
 	describe.only('sax', () => {
@@ -11,8 +11,11 @@ describe('xmltest/valid', () => {
 			async (pathInZip) => {
 				const input = await xmltest.getContent(pathInZip)
 				const handler = SaxHandler()
+				const it = new XMLReader()
+				it.domBuilder = handler
+				it.errorHandler = handler
 
-				parse(input, {}, {}, handler, handler)
+				it.parse(input, {}, {})
 
 				expect(handler.getCallsInOrder()).toMatchSnapshot()
 			}
