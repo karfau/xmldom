@@ -4,13 +4,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/001.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"001.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"001.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -18,13 +18,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/002.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"002.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"002.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -32,13 +32,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/003.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"003.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"003.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -46,13 +46,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/004.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"004.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"004.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -60,15 +60,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/005.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (e*)>{!d!}{!a!},20
+characters,!ELEMENT doc (e*)>{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT e EMPTY>{!d!}{!a!},19
+characters,!ELEMENT e EMPTY>{!r!}{!n!},19
 characters,<,1
-characters,!ENTITY e SYSTEM \\"005.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"005.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -76,15 +76,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/006.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA|e)*>{!d!}{!a!},28
+characters,!ELEMENT doc (#PCDATA|e)*>{!r!}{!n!},28
 characters,<,1
-characters,!ELEMENT e EMPTY>{!d!}{!a!},19
+characters,!ELEMENT e EMPTY>{!r!}{!n!},19
 characters,<,1
-characters,!ENTITY e SYSTEM \\"006.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"006.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -92,13 +92,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/007.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"007.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"007.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,X&e;Z,5
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -106,13 +106,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/008.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"008.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"008.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,X&e;Z,5
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -120,13 +120,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/009.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"009.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"009.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -134,13 +134,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/010.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"010.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"010.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -148,13 +148,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/011.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e PUBLIC \\"a not very interesting file\\" \\"011.ent\\">{!d!}{!a!}]>{!d!}{!a!},63
-startElement,doc,doc
+characters,!ENTITY e PUBLIC \\"a not very interesting file\\" \\"011.ent\\">{!r!}{!n!}]>{!r!}{!n!},63
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -163,23 +163,23 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/012.xml 1`] = `
 startDTD,doc
 endDTD
 error,entity not found:&e2;
-characters,!ENTITY e1 \\"&e2;\\">{!d!}{!a!},20
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
 characters,<,1
 error,entity not found:&e3;
-characters,!ENTITY e2 \\"&e3;\\">{!d!}{!a!},20
+characters,!ENTITY e2 \\"&e3;\\">{!r!}{!n!},20
 characters,<,1
-characters,!ENTITY e3 SYSTEM \\"012.ent\\">{!d!}{!a!},30
+characters,!ENTITY e3 SYSTEM \\"012.ent\\">{!r!}{!n!},30
 characters,<,1
 error,entity not found:&e5;
-characters,!ENTITY e4 \\"&e5;\\">{!d!}{!a!},20
+characters,!ENTITY e4 \\"&e5;\\">{!r!}{!n!},20
 characters,<,1
-characters,!ENTITY e5 \\"(e5)\\">{!d!}{!a!},20
+characters,!ENTITY e5 \\"(e5)\\">{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 error,entity not found:&e1;
 characters,&e1;,4
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -187,17 +187,17 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/013.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (e)>{!d!}{!a!},19
+characters,!ELEMENT doc (e)>{!r!}{!n!},19
 characters,<,1
-characters,!ELEMENT e (#PCDATA)>{!d!}{!a!},23
+characters,!ELEMENT e (#PCDATA)>{!r!}{!n!},23
 characters,<,1
-characters,!ATTLIST e{!d!}{!a!}  a1 CDATA \\"a1 default\\"{!d!}{!a!}  a2 NMTOKENS \\"a2 default\\"{!d!}{!a!}>{!d!}{!a!},68
+characters,!ATTLIST e{!r!}{!n!}  a1 CDATA \\"a1 default\\"{!r!}{!n!}  a2 NMTOKENS \\"a2 default\\"{!r!}{!n!}>{!r!}{!n!},68
 characters,<,1
-characters,!ENTITY x SYSTEM \\"013.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY x SYSTEM \\"013.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&x;
 characters,&x;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -205,13 +205,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/ext-sa/014.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e SYSTEM \\"014.ent\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
+characters,!ENTITY e SYSTEM \\"014.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -219,9 +219,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/001.xml 1`] = `
 "startDocument
 startDTD,doc,001.ent
 endDTD
-characters,!ELEMENT doc EMPTY>{!d!}{!a!}]>{!d!}{!a!},25
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -229,9 +229,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/002.xml 1`] = `
 "startDocument
 startDTD,doc,002.ent
 endDTD
-characters,!ELEMENT doc EMPTY>{!d!}{!a!}]>{!d!}{!a!},25
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -239,9 +239,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/003.xml 1`] = `
 "startDocument
 startDTD,doc,003-1.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -249,9 +249,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/004.xml 1`] = `
 "startDocument
 startDTD,doc,004-1.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -259,9 +259,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/005.xml 1`] = `
 "startDocument
 startDTD,doc,005-1.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -269,9 +269,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/006.xml 1`] = `
 "startDocument
 startDTD,doc,006.ent
 endDTD
-characters,!ATTLIST doc a1 CDATA \\"v1\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA \\"v1\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -279,9 +279,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/007.xml 1`] = `
 "startDocument
 startDTD,doc,007.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -289,9 +289,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/008.xml 1`] = `
 "startDocument
 startDTD,doc,whatever,008.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -299,9 +299,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/009.xml 1`] = `
 "startDocument
 startDTD,doc,whatever,009.ent
 endDTD
-characters,!ATTLIST doc a2 CDATA \\"v2\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a2 CDATA \\"v2\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -309,9 +309,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/010.xml 1`] = `
 "startDocument
 startDTD,doc,010.ent
 endDTD
-characters,!ATTLIST doc a1 CDATA \\"v1\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA \\"v1\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -319,9 +319,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/011.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY % e SYSTEM \\"011.ent\\">{!d!}{!a!}%e;{!d!}{!a!}]>{!d!}{!a!},40
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY % e SYSTEM \\"011.ent\\">{!r!}{!n!}%e;{!r!}{!n!}]>{!r!}{!n!},40
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -329,9 +329,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/012.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY % e SYSTEM \\"012.ent\\">{!d!}{!a!}%e;{!d!}{!a!}]>{!d!}{!a!},40
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY % e SYSTEM \\"012.ent\\">{!r!}{!n!}%e;{!r!}{!n!}]>{!r!}{!n!},40
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -339,9 +339,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/013.xml 1`] = `
 "startDocument
 startDTD,doc,013.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -349,9 +349,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/014.xml 1`] = `
 "startDocument
 startDTD,doc,014.ent
 endDTD
-characters,!ENTITY % e \\"INCLUDE\\">{!d!}{!a!}]>{!d!}{!a!},28
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY % e \\"INCLUDE\\">{!r!}{!n!}]>{!r!}{!n!},28
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -359,9 +359,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/015.xml 1`] = `
 "startDocument
 startDTD,doc,015.ent
 endDTD
-characters,!ENTITY % e \\"IGNORE\\">{!d!}{!a!}]>{!d!}{!a!},27
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY % e \\"IGNORE\\">{!r!}{!n!}]>{!r!}{!n!},27
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -369,9 +369,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/016.xml 1`] = `
 "startDocument
 startDTD,doc,016.ent
 endDTD
-characters,!ENTITY % e \\"INCLUDE\\">{!d!}{!a!}]>{!d!}{!a!},28
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY % e \\"INCLUDE\\">{!r!}{!n!}]>{!r!}{!n!},28
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -379,9 +379,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/017.xml 1`] = `
 "startDocument
 startDTD,doc,017.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -389,9 +389,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/018.xml 1`] = `
 "startDocument
 startDTD,doc,018.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -399,9 +399,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/019.xml 1`] = `
 "startDocument
 startDTD,doc,019.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -409,9 +409,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/020.xml 1`] = `
 "startDocument
 startDTD,doc,020.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -419,9 +419,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/021.xml 1`] = `
 "startDocument
 startDTD,doc,021.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -429,9 +429,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/022.xml 1`] = `
 "startDocument
 startDTD,doc,022.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -439,9 +439,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/023.xml 1`] = `
 "startDocument
 startDTD,doc,023.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -449,9 +449,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/024.xml 1`] = `
 "startDocument
 startDTD,doc,024.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -459,9 +459,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/025.xml 1`] = `
 "startDocument
 startDTD,doc,025.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -469,13 +469,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/026.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc ANY>{!d!}{!a!},19
+characters,!ELEMENT doc ANY>{!r!}{!n!},19
 characters,<,1
-characters,!ENTITY % e SYSTEM \\"026.ent\\">{!d!}{!a!}%e;{!d!}{!a!},36
+characters,!ENTITY % e SYSTEM \\"026.ent\\">{!r!}{!n!}%e;{!r!}{!n!},36
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"x1\\" a2 CDATA \\"x2\\">{!d!}{!a!}]>{!d!}{!a!},47
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA \\"x1\\" a2 CDATA \\"x2\\">{!r!}{!n!}]>{!r!}{!n!},47
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -483,9 +483,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/027.xml 1`] = `
 "startDocument
 startDTD,doc,027.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -493,9 +493,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/028.xml 1`] = `
 "startDocument
 startDTD,doc,028.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -503,9 +503,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/029.xml 1`] = `
 "startDocument
 startDTD,doc,029.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -513,9 +513,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/030.xml 1`] = `
 "startDocument
 startDTD,doc,030.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -523,11 +523,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/not-sa/031.xml 1`] = `
 "startDocument
 startDTD,doc,031-1.ent
 endDTD
-characters,{!d!}{!a!},2
-startElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -535,9 +535,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/001.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -545,9 +545,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/002.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -555,8 +555,8 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/003.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 endDocument"
 `;
 
@@ -564,11 +564,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/004.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -576,11 +576,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/005.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -588,11 +588,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/006.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -600,10 +600,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/007.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters, ,5
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -611,15 +611,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/008.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 error,entity not found:&amp;
 error,entity not found:&lt;
 error,entity not found:&gt;
 error,entity not found:&quot;
 error,entity not found:&apos;
 characters,&amp;&lt;&gt;&quot;&apos;,25
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -627,10 +627,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/009.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters, ,6
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -638,11 +638,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/010.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -650,11 +650,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/011.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED a2 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},55
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED a2 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},55
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -662,9 +662,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/012.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc : CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
+characters,!ATTLIST doc : CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
 error,element parse error: Error: invalid attribute::
 characters,<,1
 characters,doc :=\\"v1\\">,11
@@ -675,11 +675,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/013.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc _.-0123456789 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},48
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc _.-0123456789 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},48
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -687,11 +687,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/014.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc abcdefghijklmnopqrstuvwxyz CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},61
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc abcdefghijklmnopqrstuvwxyz CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},61
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -699,11 +699,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/015.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc ABCDEFGHIJKLMNOPQRSTUVWXYZ CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},61
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc ABCDEFGHIJKLMNOPQRSTUVWXYZ CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},61
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -711,10 +711,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/016.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 processingInstruction,pi
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -722,10 +722,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/017.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 processingInstruction,pi,some data ? > <?
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -733,12 +733,12 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/018.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 startCDATA
-characters,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><![CDATA[<foo>]]></doc>{!d!}{!a!},61,5
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><![CDATA[<foo>]]></doc>{!r!}{!n!},61,5
 endCDATA
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -746,12 +746,12 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/019.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 startCDATA
-characters,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><![CDATA[<&]]></doc>{!d!}{!a!},61,2
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><![CDATA[<&]]></doc>{!r!}{!n!},61,2
 endCDATA
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -759,12 +759,12 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/020.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 startCDATA
-characters,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><![CDATA[<&]>]]]></doc>{!d!}{!a!},61,5
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><![CDATA[<&]>]]]></doc>{!r!}{!n!},61,5
 endCDATA
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -772,10 +772,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/021.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-comment,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><!-- a comment --></doc>{!d!}{!a!},56,11
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+comment,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><!-- a comment --></doc>{!r!}{!n!},56,11
+endElement,doc
 endDocument"
 `;
 
@@ -783,10 +783,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/022.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-comment,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><!-- a comment ->--></doc>{!d!}{!a!},56,13
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+comment,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><!-- a comment ->--></doc>{!r!}{!n!},56,13
+endElement,doc
 endDocument"
 `;
 
@@ -794,13 +794,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/023.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"\\">{!d!}{!a!}]>{!d!}{!a!},19
-startElement,doc,doc
+characters,!ENTITY e \\"\\">{!r!}{!n!}]>{!r!}{!n!},19
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -808,16 +808,16 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/024.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (foo)>{!d!}{!a!},21
+characters,!ELEMENT doc (foo)>{!r!}{!n!},21
 characters,<,1
-characters,!ELEMENT foo (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT foo (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ENTITY e \\"<foo>,20
-characters,\\">{!d!}{!a!}]>{!d!}{!a!},8
-startElement,doc,doc
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -825,15 +825,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/025.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (foo*)>{!d!}{!a!},22
+characters,!ELEMENT doc (foo*)>{!r!}{!n!},22
 characters,<,1
-characters,!ELEMENT foo (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-startElement,foo,foo
-endElement,foo,foo
-startElement,foo,foo
-endElement,foo,foo
-endElement,doc,doc
+characters,!ELEMENT foo (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+startElement,foo
+endElement,foo
+startElement,foo
+endElement,foo
+endElement,doc
 endDocument"
 `;
 
@@ -841,15 +841,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/026.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (foo*)>{!d!}{!a!},22
+characters,!ELEMENT doc (foo*)>{!r!}{!n!},22
 characters,<,1
-characters,!ELEMENT foo EMPTY>{!d!}{!a!}]>{!d!}{!a!},25
-startElement,doc,doc
-startElement,foo,foo
-endElement,foo,foo
-startElement,foo,foo
-endElement,foo,foo
-endElement,doc,doc
+characters,!ELEMENT foo EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+startElement,foo
+endElement,foo
+startElement,foo
+endElement,foo
+endElement,doc
 endDocument"
 `;
 
@@ -857,87 +857,87 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/027.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (foo*)>{!d!}{!a!},22
+characters,!ELEMENT doc (foo*)>{!r!}{!n!},22
 characters,<,1
-characters,!ELEMENT foo ANY>{!d!}{!a!}]>{!d!}{!a!},23
-startElement,doc,doc
-startElement,foo,foo
-endElement,foo,foo
-startElement,foo,foo
-endElement,foo,foo
-endElement,doc,doc
+characters,!ELEMENT foo ANY>{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
+startElement,foo
+endElement,foo
+startElement,foo
+endElement,foo
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/028.xml 1`] = `
 "startDocument
 processingInstruction,xml,version=\\"1.0\\"
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/029.xml 1`] = `
 "startDocument
 processingInstruction,xml,version='1.0'
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/030.xml 1`] = `
 "startDocument
 processingInstruction,xml,version = \\"1.0\\"
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/031.xml 1`] = `
 "startDocument
 processingInstruction,xml,version='1.0' encoding=\\"UTF-8\\"
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/032.xml 1`] = `
 "startDocument
 processingInstruction,xml,version='1.0' standalone='yes'
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/033.xml 1`] = `
 "startDocument
 processingInstruction,xml,version='1.0' encoding=\\"UTF-8\\" standalone='yes'
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -945,9 +945,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/034.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -955,9 +955,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/035.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -965,10 +965,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/036.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
-characters,{!d!}{!a!},2
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
+characters,{!r!}{!n!},2
 processingInstruction,pi,data
 endDocument"
 `;
@@ -977,35 +977,35 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/037.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
-characters,{!d!}{!a!},2
-comment,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc></doc>{!d!}{!a!}<!-- comment -->{!d!}{!a!}{!d!}{!a!},64,9
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
+characters,{!r!}{!n!},2
+comment,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc></doc>{!r!}{!n!}<!-- comment -->{!r!}{!n!}{!r!}{!n!},64,9
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/038.xml 1`] = `
 "startDocument
-comment,<!-- comment -->{!d!}{!a!}<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc></doc>{!d!}{!a!}{!d!}{!a!},4,9
-characters,{!d!}{!a!},2
+comment,<!-- comment -->{!r!}{!n!}<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc></doc>{!r!}{!n!}{!r!}{!n!},4,9
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/039.xml 1`] = `
 "startDocument
 processingInstruction,pi,data
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1013,16 +1013,16 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/040.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
 error,entity not found:&quot;
 error,entity not found:&lt;
 error,entity not found:&amp;
 error,entity not found:&gt;
 error,entity not found:&apos;
-startElement,doc,doc
-endElement,doc,doc
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1030,11 +1030,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/041.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1042,10 +1042,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/042.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,A,38
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1053,11 +1053,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/043.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!},33
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!},33
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1065,23 +1065,23 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/044.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (e*)>{!d!}{!a!},20
+characters,!ELEMENT doc (e*)>{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT e EMPTY>{!d!}{!a!},19
+characters,!ELEMENT e EMPTY>{!r!}{!n!},19
 characters,<,1
-characters,!ATTLIST e a1 CDATA \\"v1\\" a2 CDATA \\"v2\\" a3 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},63
-startElement,doc,doc
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-endElement,doc,doc
+characters,!ATTLIST e a1 CDATA \\"v1\\" a2 CDATA \\"v2\\" a3 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},63
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+endElement,doc
 endDocument"
 `;
 
@@ -1089,13 +1089,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/045.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"v1\\">{!d!}{!a!},29
+characters,!ATTLIST doc a1 CDATA \\"v1\\">{!r!}{!n!},29
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"z1\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA \\"z1\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1103,13 +1103,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/046.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"v1\\">{!d!}{!a!},29
+characters,!ATTLIST doc a1 CDATA \\"v1\\">{!r!}{!n!},29
 characters,<,1
-characters,!ATTLIST doc a2 CDATA \\"v2\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a2 CDATA \\"v2\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1117,10 +1117,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/047.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-characters,X{!d!}{!a!}Y,4
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,X{!r!}{!n!}Y,4
+endElement,doc
 endDocument"
 `;
 
@@ -1128,10 +1128,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/048.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,],1
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1140,10 +1140,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/049.xml 1`] = `
 characters,��,2
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}[{!0!}{!d!}{!0!}{!a!}{!0!},33
+characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}[{!0!}{!r!}{!0!}{!n!}{!0!},33
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!d!}{!0!}{!a!}{!0!}]{!0!}>{!0!}{!d!}{!0!}{!a!}{!0!},59
+characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!r!}{!0!}{!n!}{!0!}]{!0!}>{!0!}{!r!}{!0!}{!n!}{!0!},59
 error,element parse error: Error: invalid tagName:
 characters,<,1
 characters,{!0!}d{!0!}o{!0!}c{!0!}>{!0!}�{!0!},11
@@ -1172,11 +1172,11 @@ characters,>,1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!d!},1
+characters,{!r!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!a!},1
+characters,{!n!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 endDocument"
@@ -1187,10 +1187,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/050.xml 1`] = `
 characters,��,2
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}[{!0!}{!d!}{!0!}{!a!}{!0!},33
+characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}[{!0!}{!r!}{!0!}{!n!}{!0!},33
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!d!}{!0!}{!a!}{!0!}]{!0!}>{!0!}{!d!}{!0!}{!a!}{!0!},59
+characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}d{!0!}o{!0!}c{!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!r!}{!0!}{!n!}{!0!}]{!0!}>{!0!}{!r!}{!0!}{!n!}{!0!},59
 error,element parse error: Error: invalid tagName:
 characters,<,1
 characters,{!0!}d{!0!}o{!0!}c{!0!}>{!0!}@!*L,19
@@ -1219,11 +1219,11 @@ characters,>,1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!d!},1
+characters,{!r!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!a!},1
+characters,{!n!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 endDocument"
@@ -1234,10 +1234,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/051.xml 1`] = `
 characters,��,2
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}@!*L {!0!}[{!0!}{!d!}{!0!}{!a!}{!0!},37
+characters,{!0!}!{!0!}D{!0!}O{!0!}C{!0!}T{!0!}Y{!0!}P{!0!}E{!0!} {!0!}@!*L {!0!}[{!0!}{!r!}{!0!}{!n!}{!0!},37
 error,element parse error: Error: invalid tagName:
 characters,<,1
-characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}@!*L {!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!d!}{!0!}{!a!}{!0!}]{!0!}>{!0!}{!d!}{!0!}{!a!}{!0!},65
+characters,{!0!}!{!0!}E{!0!}L{!0!}E{!0!}M{!0!}E{!0!}N{!0!}T{!0!} {!0!}@!*L {!0!} {!0!}({!0!}#{!0!}P{!0!}C{!0!}D{!0!}A{!0!}T{!0!}A{!0!}){!0!}>{!0!}{!r!}{!0!}{!n!}{!0!}]{!0!}>{!0!}{!r!}{!0!}{!n!}{!0!},65
 error,element parse error: Error: invalid tagName:
 characters,<,1
 characters,{!0!}@!*L>{!0!},13
@@ -1274,11 +1274,11 @@ characters,>,1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!d!},1
+characters,{!r!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!a!},1
+characters,{!n!},1
 error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
 characters,{!0!},1
 endDocument"
@@ -1288,10 +1288,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/052.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,𐀀􏿽,4
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1300,17 +1300,17 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/053.xml 1`] = `
 startDTD,doc
 endDTD
 characters,!ENTITY e \\",11
-startElement,e,e
-endElement,e,e
-characters,\\">{!d!}{!a!},4
+startElement,e
+endElement,e
+characters,\\">{!r!}{!n!},4
 characters,<,1
-characters,!ELEMENT doc (e)>{!d!}{!a!},19
+characters,!ELEMENT doc (e)>{!r!}{!n!},19
 characters,<,1
-characters,!ELEMENT e EMPTY>{!d!}{!a!}]>{!d!}{!a!},23
-startElement,doc,doc
+characters,!ELEMENT e EMPTY>{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1318,8 +1318,8 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/054.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}{!d!}{!a!}{!d!}{!a!},33
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}{!r!}{!n!}{!r!}{!n!},33
+startElement,doc
 endDocument"
 `;
 
@@ -1327,11 +1327,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/055.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
 processingInstruction,pi,data
-characters,{!d!}{!a!},2
-startElement,doc,doc
-endElement,doc,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1339,10 +1339,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/056.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,A,44
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1350,9 +1350,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/057.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (a*)>{!d!}{!a!}]>{!d!}{!a!},24
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (a*)>{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1360,11 +1360,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/058.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!d!}{!a!},36
+characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!r!}{!n!},36
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1372,23 +1372,23 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/059.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (e*)>{!d!}{!a!},20
+characters,!ELEMENT doc (e*)>{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT e EMPTY>{!d!}{!a!},19
+characters,!ELEMENT e EMPTY>{!r!}{!n!},19
 characters,<,1
-characters,!ATTLIST e a1 CDATA #IMPLIED a2 CDATA #IMPLIED a3 CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},71
-startElement,doc,doc
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-startElement,e,e
-endElement,e,e
-characters,{!d!}{!a!},2
-endElement,doc,doc
+characters,!ATTLIST e a1 CDATA #IMPLIED a2 CDATA #IMPLIED a3 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},71
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+startElement,e
+endElement,e
+characters,{!r!}{!n!},2
+endElement,doc
 endDocument"
 `;
 
@@ -1396,10 +1396,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/060.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-characters,X{!a!}Y,7
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,X{!n!}Y,7
+endElement,doc
 endDocument"
 `;
 
@@ -1407,10 +1407,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/061.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,£,6
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1418,10 +1418,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/062.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,เจมส์,23
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1429,9 +1429,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/063.xml 1`] = `
 "startDocument
 startDTD,เจมส์
 endDTD
-characters,!ELEMENT เจมส์ (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},31
-startElement,เจมส์,เจมส์
-endElement,เจมส์,เจมส์
+characters,!ELEMENT เจมส์ (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},31
+startElement,เจมส์
+endElement,เจมส์
 endDocument"
 `;
 
@@ -1439,10 +1439,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/064.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,𐀀􏿽,19
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1450,11 +1450,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/065.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY e \\"<\\">{!d!}{!a!},20
+characters,!ENTITY e \\"<\\">{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1462,16 +1462,16 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/066.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!},33
-comment,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}<!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!}<!-- 34 is double quote -->{!d!}{!a!}<!ENTITY e1 \\"&#34;\\">{!d!}{!a!}]>{!d!}{!a!}<doc a1=\\"&e1;\\"></doc>{!d!}{!a!},81,20
-characters,{!d!}{!a!},2
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!},33
+comment,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}<!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}<!-- 34 is double quote -->{!r!}{!n!}<!ENTITY e1 \\"&#34;\\">{!r!}{!n!}]>{!r!}{!n!}<doc a1=\\"&e1;\\"></doc>{!r!}{!n!},81,20
+characters,{!r!}{!n!},2
 characters,<,1
-characters,!ENTITY e1 \\"\\"\\">{!d!}{!a!}]>{!d!}{!a!},25
+characters,!ENTITY e1 \\"\\"\\">{!r!}{!n!}]>{!r!}{!n!},25
 error,entity not found:&e1;
-startElement,doc,doc
-endElement,doc,doc
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1479,10 +1479,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/067.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-characters,{!d!},5
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!r!},5
+endElement,doc
 endDocument"
 `;
 
@@ -1490,13 +1490,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/068.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"{!d!}\\">{!d!}{!a!}]>{!d!}{!a!},24
-startElement,doc,doc
+characters,!ENTITY e \\"{!r!}\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1504,11 +1504,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/069.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!NOTATION n PUBLIC \\"whatever\\">{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!NOTATION n PUBLIC \\"whatever\\">{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1518,9 +1518,9 @@ startDTD,doc
 endDTD
 characters,!ENTITY % e \\",13
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>\\">{!d!}{!a!}%e;{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>\\">{!r!}{!n!}%e;{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1528,11 +1528,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/071.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a ID #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a ID #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1540,11 +1540,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/072.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a IDREF #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a IDREF #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1552,11 +1552,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/073.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a IDREFS #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a IDREFS #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1564,11 +1564,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/074.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a ENTITY #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a ENTITY #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1576,11 +1576,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/075.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a ENTITIES #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},39
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a ENTITIES #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},39
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1588,15 +1588,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/076.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a NOTATION (n1|n2) #IMPLIED>{!d!}{!a!},43
+characters,!ATTLIST doc a NOTATION (n1|n2) #IMPLIED>{!r!}{!n!},43
 characters,<,1
-characters,!NOTATION n1 SYSTEM \\"http://www.w3.org/\\">{!d!}{!a!},43
+characters,!NOTATION n1 SYSTEM \\"http://www.w3.org/\\">{!r!}{!n!},43
 characters,<,1
-characters,!NOTATION n2 SYSTEM \\"http://www.w3.org/\\">{!d!}{!a!}]>{!d!}{!a!},47
-startElement,doc,doc
-endElement,doc,doc
+characters,!NOTATION n2 SYSTEM \\"http://www.w3.org/\\">{!r!}{!n!}]>{!r!}{!n!},47
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1604,11 +1604,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/077.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a (1|2) #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a (1|2) #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1616,11 +1616,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/078.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #REQUIRED>{!d!}{!a!}]>{!d!}{!a!},37
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #REQUIRED>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1628,11 +1628,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/079.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #FIXED \\"v\\">{!d!}{!a!}]>{!d!}{!a!},38
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #FIXED \\"v\\">{!r!}{!n!}]>{!r!}{!n!},38
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1640,11 +1640,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/080.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #FIXED \\"v\\">{!d!}{!a!}]>{!d!}{!a!},38
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #FIXED \\"v\\">{!r!}{!n!}]>{!r!}{!n!},38
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1652,23 +1652,23 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/081.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (a, b, c)>{!d!}{!a!},25
+characters,!ELEMENT doc (a, b, c)>{!r!}{!n!},25
 characters,<,1
-characters,!ELEMENT a (a?)>{!d!}{!a!},18
+characters,!ELEMENT a (a?)>{!r!}{!n!},18
 characters,<,1
-characters,!ELEMENT b (b*)>{!d!}{!a!},18
+characters,!ELEMENT b (b*)>{!r!}{!n!},18
 characters,<,1
-characters,!ELEMENT c (a | b)+>{!d!}{!a!}]>{!d!}{!a!},26
-startElement,doc,doc
-startElement,a,a
-endElement,a,a
-startElement,b,b
-endElement,b,b
-startElement,c,c
-startElement,a,a
-endElement,a,a
-endElement,c,c
-endElement,doc,doc
+characters,!ELEMENT c (a | b)+>{!r!}{!n!}]>{!r!}{!n!},26
+startElement,doc
+startElement,a
+endElement,a
+startElement,b
+endElement,b
+startElement,c
+startElement,a
+endElement,a
+endElement,c
+endElement,doc
 endDocument"
 `;
 
@@ -1676,11 +1676,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/082.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY % e SYSTEM \\"e.dtd\\">{!d!}{!a!},29
+characters,!ENTITY % e SYSTEM \\"e.dtd\\">{!r!}{!n!},29
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1688,11 +1688,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/083.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY % e PUBLIC 'whatever' \\"e.dtd\\">{!d!}{!a!},40
+characters,!ENTITY % e PUBLIC 'whatever' \\"e.dtd\\">{!r!}{!n!},40
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1701,8 +1701,8 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/084.xml 1`] = `
 startDTD,doc
 endDTD
 characters,!ELEMENT doc (#PCDATA)>]>,25
-startElement,doc,doc
-endElement,doc,doc
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1710,19 +1710,19 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/085.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ENTITY % e \\",13
 warning,unclosed xml attribute
-startElement,foo,foo
-endElement,foo,foo
-characters,\\">{!d!}{!a!},4
+startElement,foo
+endElement,foo
+characters,\\">{!r!}{!n!},4
 characters,<,1
-characters,!ENTITY e \\"\\">{!d!}{!a!}]>{!d!}{!a!},19
-startElement,doc,doc
+characters,!ENTITY e \\"\\">{!r!}{!n!}]>{!r!}{!n!},19
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1730,19 +1730,19 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/086.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"\\">{!d!}{!a!},15
+characters,!ENTITY e \\"\\">{!r!}{!n!},15
 characters,<,1
 characters,!ENTITY e \\",11
 warning,unclosed xml attribute
-startElement,foo,foo
-endElement,foo,foo
-characters,\\">{!d!}{!a!}]>{!d!}{!a!},8
-startElement,doc,doc
+startElement,foo
+endElement,foo
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1753,15 +1753,15 @@ endDTD
 characters,!ENTITY e \\",11
 error,element parse error: Error: elements closed character '/' and '>' must be connected to
 characters,<,1
-characters,foo/>\\">{!d!}{!a!},13
+characters,foo/>\\">{!r!}{!n!},13
 characters,<,1
-characters,!ELEMENT doc (foo)>{!d!}{!a!},21
+characters,!ELEMENT doc (foo)>{!r!}{!n!},21
 characters,<,1
-characters,!ELEMENT foo EMPTY>{!d!}{!a!}]>{!d!}{!a!},25
-startElement,doc,doc
+characters,!ELEMENT foo EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1769,14 +1769,14 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/088.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 error,entity not found:&lt;
-characters,!ENTITY e \\"&lt;foo>\\">{!d!}{!a!}]>{!d!}{!a!},27
-startElement,doc,doc
+characters,!ENTITY e \\"&lt;foo>\\">{!r!}{!n!}]>{!r!}{!n!},27
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1784,13 +1784,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/089.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY e \\"𐀀􏿽􏿿\\">{!d!}{!a!},44
+characters,!ENTITY e \\"𐀀􏿽􏿿\\">{!r!}{!n!},44
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1798,15 +1798,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/090.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ATTLIST e a NOTATION (n) #IMPLIED>{!d!}{!a!},37
+characters,!ATTLIST e a NOTATION (n) #IMPLIED>{!r!}{!n!},37
 characters,<,1
-characters,!ELEMENT doc (e)*>{!d!}{!a!},20
+characters,!ELEMENT doc (e)*>{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT e (#PCDATA)>{!d!}{!a!},23
+characters,!ELEMENT e (#PCDATA)>{!r!}{!n!},23
 characters,<,1
-characters,!NOTATION n PUBLIC \\"whatever\\">{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!NOTATION n PUBLIC \\"whatever\\">{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1814,15 +1814,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/091.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!NOTATION n SYSTEM \\"http://www.w3.org/\\">{!d!}{!a!},42
+characters,!NOTATION n SYSTEM \\"http://www.w3.org/\\">{!r!}{!n!},42
 characters,<,1
-characters,!ENTITY e SYSTEM \\"http://www.w3.org/\\" NDATA n>{!d!}{!a!},48
+characters,!ENTITY e SYSTEM \\"http://www.w3.org/\\" NDATA n>{!r!}{!n!},48
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a ENTITY \\"e\\">{!d!}{!a!}]>{!d!}{!a!},32
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a ENTITY \\"e\\">{!r!}{!n!}]>{!r!}{!n!},32
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1830,21 +1830,21 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/092.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (a)*>{!d!}{!a!},20
+characters,!ELEMENT doc (a)*>{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT a EMPTY>{!d!}{!a!}]>{!d!}{!a!},23
-startElement,doc,doc
-characters,{!d!}{!a!},2
-startElement,a,a
-endElement,a,a
-characters,{!d!}{!a!}    ,6
-startElement,a,a
-endElement,a,a
-characters,	,1
-startElement,a,a
-endElement,a,a
-characters,{!d!}{!a!}{!d!}{!a!}{!d!}{!a!},6
-endElement,doc,doc
+characters,!ELEMENT a EMPTY>{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,a
+endElement,a
+characters,{!r!}{!n!}    ,6
+startElement,a
+endElement,a
+characters,{!t!},1
+startElement,a
+endElement,a
+characters,{!r!}{!n!}{!r!}{!n!}{!r!}{!n!},6
+endElement,doc
 endDocument"
 `;
 
@@ -1852,10 +1852,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/093.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!a!}]>{!a!},27
-startElement,doc,doc
-characters,{!d!}{!a!}{!d!}{!d!},4
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!n!}]>{!n!},27
+startElement,doc
+characters,{!r!}{!n!}{!r!}{!r!},4
+endElement,doc
 endDocument"
 `;
 
@@ -1863,13 +1863,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/094.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY % e \\"foo\\">{!d!}{!a!},20
+characters,!ENTITY % e \\"foo\\">{!r!}{!n!},20
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"%e;\\">{!d!}{!a!}]>{!d!}{!a!},34
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a1 CDATA \\"%e;\\">{!r!}{!n!}]>{!r!}{!n!},34
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1877,13 +1877,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/095.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ATTLIST doc a1 CDATA #IMPLIED>{!d!}{!a!},33
+characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!},33
 characters,<,1
-characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!d!}{!a!},36
+characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!r!}{!n!},36
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1891,11 +1891,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/096.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ATTLIST doc a1 NMTOKENS \\" 1  	2 	\\">{!d!}{!a!},38
+characters,!ATTLIST doc a1 NMTOKENS \\" 1  {!t!}2 {!t!}\\">{!r!}{!n!},38
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1903,15 +1903,15 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/097.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY % e SYSTEM \\"097.ent\\">{!d!}{!a!},31
+characters,!ENTITY % e SYSTEM \\"097.ent\\">{!r!}{!n!},31
 characters,<,1
-characters,!ATTLIST doc a1 CDATA \\"v1\\">{!d!}{!a!}%e;{!d!}{!a!},34
+characters,!ATTLIST doc a1 CDATA \\"v1\\">{!r!}{!n!}%e;{!r!}{!n!},34
 characters,<,1
-characters,!ATTLIST doc a2 CDATA \\"v2\\">{!d!}{!a!}]>{!d!}{!a!},33
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a2 CDATA \\"v2\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1919,22 +1919,22 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/098.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-processingInstruction,pi,x{!d!}{!a!}y
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+processingInstruction,pi,x{!r!}{!n!}y
+endElement,doc
 endDocument"
 `;
 
 exports[`xmltest/valid sax should parse xmltest/valid/sa/099.xml 1`] = `
 "startDocument
 processingInstruction,xml,version=\\"1.0\\" encoding=\\"utf-8\\"
-characters,{!d!}{!a!},2
+characters,{!r!}{!n!},2
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1942,11 +1942,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/100.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ENTITY e PUBLIC \\";!*#@$_%\\" \\"100.xml\\">{!d!}{!a!},40
+characters,!ENTITY e PUBLIC \\";!*#@$_%\\" \\"100.xml\\">{!r!}{!n!},40
 characters,<,1
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
-endElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1954,11 +1954,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/101.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"\\"\\">{!d!}{!a!}]>{!d!}{!a!},24
-startElement,doc,doc
-endElement,doc,doc
+characters,!ENTITY e \\"\\"\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1966,11 +1966,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/102.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1978,10 +1978,10 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/103.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 characters,<doc>,9
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -1989,11 +1989,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/104.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2001,11 +2001,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/105.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2013,11 +2013,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/106.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2025,11 +2025,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/107.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2037,14 +2037,14 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/108.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"{!d!}{!a!}\\">{!d!}{!a!},17
+characters,!ENTITY e \\"{!r!}{!n!}\\">{!r!}{!n!},17
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
 error,entity not found:&e;
-startElement,doc,doc
-endElement,doc,doc
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2052,11 +2052,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/109.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2064,14 +2064,14 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/110.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY e \\"{!d!}{!a!}\\">{!d!}{!a!},25
+characters,!ENTITY e \\"{!r!}{!n!}\\">{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},36
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
 error,entity not found:&e;
-startElement,doc,doc
-endElement,doc,doc
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2079,11 +2079,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/111.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST doc a NMTOKENS #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},39
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST doc a NMTOKENS #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},39
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2091,13 +2091,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/112.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (a | b)>{!d!}{!a!},23
+characters,!ELEMENT doc (a | b)>{!r!}{!n!},23
 characters,<,1
-characters,!ELEMENT a (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},27
-startElement,doc,doc
-startElement,a,a
-endElement,a,a
-endElement,doc,doc
+characters,!ELEMENT a (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},27
+startElement,doc
+startElement,a
+endElement,a
+endElement,doc
 endDocument"
 `;
 
@@ -2105,11 +2105,11 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/113.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ATTLIST e a CDATA #IMPLIED>{!d!}{!a!}]>{!d!}{!a!},34
-startElement,doc,doc
-endElement,doc,doc
+characters,!ATTLIST e a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},34
+startElement,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2117,17 +2117,17 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/114.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ENTITY e \\",11
 startCDATA
-characters,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}<!ENTITY e \\"<![CDATA[&foo;]]>\\">{!d!}{!a!}]>{!d!}{!a!}<doc>&e;</doc>{!d!}{!a!},64,5
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}<!ENTITY e \\"<![CDATA[&foo;]]>\\">{!r!}{!n!}]>{!r!}{!n!}<doc>&e;</doc>{!r!}{!n!},64,5
 endCDATA
-characters,\\">{!d!}{!a!}]>{!d!}{!a!},8
-startElement,doc,doc
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
 error,entity not found:&e;
 characters,&e;,3
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2135,16 +2135,16 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/115.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 error,entity not found:&e2;
-characters,!ENTITY e1 \\"&e2;\\">{!d!}{!a!},20
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
 characters,<,1
-characters,!ENTITY e2 \\"v\\">{!d!}{!a!}]>{!d!}{!a!},21
-startElement,doc,doc
+characters,!ENTITY e2 \\"v\\">{!r!}{!n!}]>{!r!}{!n!},21
+startElement,doc
 error,entity not found:&e1;
 characters,&e1;,4
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2152,12 +2152,12 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/116.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!},29
-startElement,doc,doc
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
 startCDATA
-characters,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc (#PCDATA)>{!d!}{!a!}]>{!d!}{!a!}<doc><![CDATA[{!d!}{!a!}]]></doc>{!d!}{!a!},61,2
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!}<doc><![CDATA[{!r!}{!n!}]]></doc>{!r!}{!n!},61,2
 endCDATA
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2165,13 +2165,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/117.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY rsqb \\"]\\">{!d!}{!a!}]>{!d!}{!a!},23
-startElement,doc,doc
+characters,!ENTITY rsqb \\"]\\">{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
 error,entity not found:&rsqb;
 characters,&rsqb;,6
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2179,13 +2179,13 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/118.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc (#PCDATA)>{!d!}{!a!},25
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
-characters,!ENTITY rsqb \\"]]\\">{!d!}{!a!}]>{!d!}{!a!},24
-startElement,doc,doc
+characters,!ENTITY rsqb \\"]]\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
 error,entity not found:&rsqb;
 characters,&rsqb;,6
-endElement,doc,doc
+endElement,doc
 endDocument"
 `;
 
@@ -2193,9 +2193,9 @@ exports[`xmltest/valid sax should parse xmltest/valid/sa/119.xml 1`] = `
 "startDocument
 startDTD,doc
 endDTD
-characters,!ELEMENT doc ANY>{!d!}{!a!}]>{!d!}{!a!},23
-startElement,doc,doc
-comment,<!DOCTYPE doc [{!d!}{!a!}<!ELEMENT doc ANY>{!d!}{!a!}]>{!d!}{!a!}<doc><!-- -á --></doc>{!d!}{!a!},50,4
-endElement,doc,doc
+characters,!ELEMENT doc ANY>{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
+comment,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc ANY>{!r!}{!n!}]>{!r!}{!n!}<doc><!-- -á --></doc>{!r!}{!n!},50,4
+endElement,doc
 endDocument"
 `;

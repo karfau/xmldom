@@ -5,12 +5,21 @@ const { SaxHandler } = require('xmltest/sax')
 const { XMLReader } = require('../../lib/sax')
 
 const reduceCallEntry = (callEntry) => {
-	const simple = callEntry.filter((it) => !!it && !(typeof it === 'object'))
+	const simple = callEntry
+		.filter((it, i, l) => {
+			// don't put the same value twice (e.g localName === qName)
+			if (i > 0 && l[i - 1] === it) return false;
+			// only put truthy values
+			return !!it && !(typeof it === 'object')
+		})
+
 	return simple.length === 1
-		? simple[0]
-		: xmltest
+		? simple[0] // if there were no arguments, just put the method name
+		: xmltest // otherwise make sure we don't have any special chars
 				.replaceNonTextChars(simple.join(','))
-				.replace(/[\r\n]/g, xmltest.replaceWithWrappedCodePointAt)
+				.replace(/\r/g, "{!r!}")
+				.replace(/\n/g, '{!n!}')
+				.replace(/\t/g, '{!t!}')
 }
 const toSnapshotString = (callEntries) =>
 	callEntries.map(reduceCallEntry).join('\n')
@@ -20,7 +29,7 @@ describe('xmltest/valid', () => {
 		test.each(
 			Object.keys(
 				xmltest.getEntries(
-					"xmltest/valid/",
+					'xmltest/valid/',
 					xmltest.FILTERS.xml,
 					(it) => !/\/out\//.test(it)
 				)
