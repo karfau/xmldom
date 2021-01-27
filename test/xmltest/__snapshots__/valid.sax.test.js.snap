@@ -1149,36 +1149,6 @@ characters,<,1
 characters,{!0!}d{!0!}o{!0!}c{!0!}>{!0!}�{!0!},11
 error,element parse error: Error: invalid tagName:
 characters,<,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,/,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,d,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,o,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,c,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,>,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!r!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!n!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
 endDocument"
 `;
 
@@ -1196,36 +1166,6 @@ characters,<,1
 characters,{!0!}d{!0!}o{!0!}c{!0!}>{!0!}@!*L,19
 error,element parse error: Error: invalid tagName:
 characters,<,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,/,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,d,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,o,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,c,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,>,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!r!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!n!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
 endDocument"
 `;
 
@@ -1243,44 +1183,6 @@ characters,<,1
 characters,{!0!}@!*L>{!0!},13
 error,element parse error: Error: invalid tagName:
 characters,<,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,/,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,@,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,!,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,*,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,L,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,>,1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!r!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!n!},1
-error,element parse error: TypeError: Cannot read property 'createTextNode' of undefined
-characters,{!0!},1
 endDocument"
 `;
 

@@ -10,7 +10,7 @@ const reduceCallEntry = (callEntry) => {
 			// don't put the same value twice (e.g localName === qName)
 			if (i > 0 && l[i - 1] === it) return false;
 			// only put truthy values
-			return !!it && !(typeof it === 'object')
+			return !!it
 		})
 
 	return simple.length === 1
@@ -52,6 +52,7 @@ describe('xmltest/valid', () => {
 				},
 			})
 			const it = new XMLReader()
+			handler.doc = {appendChild: jest.fn(),createTextNode: jest.fn()}
 			it.domBuilder = handler
 			it.errorHandler = handler
 
