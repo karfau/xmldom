@@ -36,7 +36,21 @@ describe('xmltest/valid', () => {
 			)
 		)('should parse %s', async (pathInZip) => {
 			const input = await xmltest.getContent(pathInZip)
-			const handler = SaxHandler()
+			const handler = SaxHandler({
+				wrap: {
+					startElement: (handler, _, __, qname, attrs) => {
+						if (attrs.length === 0) {
+							handler(qname)
+						} else {
+							const mapped = [];
+							for (let i = 0; i < attrs.length; i++) {
+								mapped.push(`'${attrs.getQName(i)}':'${attrs.getValue(i)}'`);
+							}
+							handler(qname, `{${mapped.sort().join()}}`);
+						}
+					},
+				},
+			})
 			const it = new XMLReader()
 			it.domBuilder = handler
 			it.errorHandler = handler

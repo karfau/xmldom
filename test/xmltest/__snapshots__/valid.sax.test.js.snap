@@ -567,7 +567,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a1':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -579,7 +579,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a1':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -591,7 +591,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a1':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -641,7 +641,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a1':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -653,7 +653,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED a2 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},55
-startElement,doc
+startElement,doc,{'a1':'v1','a2':'v2'}
 endElement,doc
 endDocument"
 `;
@@ -678,7 +678,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc _.-0123456789 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},48
-startElement,doc
+startElement,doc,{'_.-0123456789':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -690,7 +690,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc abcdefghijklmnopqrstuvwxyz CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},61
-startElement,doc
+startElement,doc,{'abcdefghijklmnopqrstuvwxyz':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -702,7 +702,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc ABCDEFGHIJKLMNOPQRSTUVWXYZ CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},61
-startElement,doc
+startElement,doc,{'ABCDEFGHIJKLMNOPQRSTUVWXYZ':'v1'}
 endElement,doc
 endDocument"
 `;
@@ -1021,7 +1021,7 @@ error,entity not found:&lt;
 error,entity not found:&amp;
 error,entity not found:&gt;
 error,entity not found:&apos;
-startElement,doc
+startElement,doc,{'a1':'&quot;&lt;&amp;&gt;&apos;'}
 endElement,doc
 endDocument"
 `;
@@ -1033,7 +1033,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a1':'A'}
 endElement,doc
 endDocument"
 `;
@@ -1056,7 +1056,7 @@ endDTD
 characters,!ATTLIST doc a1 CDATA #IMPLIED>{!r!}{!n!},33
 characters,<,1
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
-startElement,doc
+startElement,doc,{'a1':'foo{!r!}{!n!}bar'}
 endElement,doc
 endDocument"
 `;
@@ -1072,13 +1072,13 @@ characters,<,1
 characters,!ATTLIST e a1 CDATA \\"v1\\" a2 CDATA \\"v2\\" a3 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},63
 startElement,doc
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a3':'v3'}
 endElement,e
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a1':'w1'}
 endElement,e
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a2':'w2','a3':'v3'}
 endElement,e
 characters,{!r!}{!n!},2
 endElement,doc
@@ -1363,7 +1363,7 @@ endDTD
 characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!r!}{!n!},36
 characters,<,1
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
-startElement,doc
+startElement,doc,{'a1':' 1  {!t!}2 {!t!}'}
 endElement,doc
 endDocument"
 `;
@@ -1379,13 +1379,13 @@ characters,<,1
 characters,!ATTLIST e a1 CDATA #IMPLIED a2 CDATA #IMPLIED a3 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},71
 startElement,doc
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a1':'v1','a2':'v2','a3':'v3'}
 endElement,e
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a1':'w1','a2':'v2'}
 endElement,e
 characters,{!r!}{!n!},2
-startElement,e
+startElement,e,{'a1':'v1','a2':'w2','a3':'v3'}
 endElement,e
 characters,{!r!}{!n!},2
 endElement,doc
@@ -1470,7 +1470,7 @@ characters,{!r!}{!n!},2
 characters,<,1
 characters,!ENTITY e1 \\"\\"\\">{!r!}{!n!}]>{!r!}{!n!},25
 error,entity not found:&e1;
-startElement,doc
+startElement,doc,{'a1':'&e1;'}
 endElement,doc
 endDocument"
 `;
@@ -1619,7 +1619,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #REQUIRED>{!r!}{!n!}]>{!r!}{!n!},37
-startElement,doc
+startElement,doc,{'a':'v'}
 endElement,doc
 endDocument"
 `;
@@ -1631,7 +1631,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #FIXED \\"v\\">{!r!}{!n!}]>{!r!}{!n!},38
-startElement,doc
+startElement,doc,{'a':'v'}
 endElement,doc
 endDocument"
 `;
@@ -1882,7 +1882,7 @@ characters,<,1
 characters,!ATTLIST doc a1 NMTOKENS #IMPLIED>{!r!}{!n!},36
 characters,<,1
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
-startElement,doc
+startElement,doc,{'a1':'1  2'}
 endElement,doc
 endDocument"
 `;
@@ -1969,7 +1969,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':'\\"'}
 endElement,doc
 endDocument"
 `;
@@ -1992,7 +1992,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':'x{!t!}y'}
 endElement,doc
 endDocument"
 `;
@@ -2004,7 +2004,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':'x{!t!}y'}
 endElement,doc
 endDocument"
 `;
@@ -2016,7 +2016,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':'x{!n!}y'}
 endElement,doc
 endDocument"
 `;
@@ -2028,7 +2028,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':'x{!r!}y'}
 endElement,doc
 endDocument"
 `;
@@ -2043,7 +2043,7 @@ characters,!ENTITY e \\"{!r!}{!n!}\\">{!r!}{!n!},17
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
 error,entity not found:&e;
-startElement,doc
+startElement,doc,{'a':'x&e;y'}
 endElement,doc
 endDocument"
 `;
@@ -2055,7 +2055,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
-startElement,doc
+startElement,doc,{'a':''}
 endElement,doc
 endDocument"
 `;
@@ -2070,7 +2070,7 @@ characters,!ENTITY e \\"{!r!}{!n!}\\">{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
 error,entity not found:&e;
-startElement,doc
+startElement,doc,{'a':'x&e;y'}
 endElement,doc
 endDocument"
 `;
@@ -2082,7 +2082,7 @@ endDTD
 characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
 characters,<,1
 characters,!ATTLIST doc a NMTOKENS #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},39
-startElement,doc
+startElement,doc,{'a':' x  y '}
 endElement,doc
 endDocument"
 `;
