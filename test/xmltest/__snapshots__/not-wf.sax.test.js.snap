@@ -1,0 +1,2112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/ext-sa/001.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e SYSTEM \\"001.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/ext-sa/002.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY e SYSTEM \\"002.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/ext-sa/003.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY e SYSTEM \\"003.ent\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/001.xml 1`] = `
+"startDocument
+startDTD,doc,001.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/002.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e \\",13
+processingInstruction,xml,version='1.0' encoding='UTF-8'
+characters,\\">{!r!}{!n!}%e;{!r!}{!n!}]>{!r!}{!n!},13
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/003.xml 1`] = `
+"startDocument
+startDTD,doc,003.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/004.xml 1`] = `
+"startDocument
+startDTD,doc,004.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/005.xml 1`] = `
+"startDocument
+startDTD,doc,005.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/006.xml 1`] = `
+"startDocument
+startDTD,doc,006.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/007.xml 1`] = `
+"startDocument
+startDTD,doc,007.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/not-sa/008.xml 1`] = `
+"startDocument
+startDTD,doc,008.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/001.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+warning,attribute \\"?\\" missed value!! \\"?\\" instead2!!
+error,element parse error: Error: invalid attribute:?
+characters,<,1
+characters,doc{!r!}{!n!}?{!r!}{!n!},8
+error,element parse error: Error: invalid tagName:a<
+characters,<,1
+characters,a,1
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/002.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+error,element parse error: Error: invalid tagName:.doc
+characters,<,1
+characters,.doc>,5
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/003.xml 1`] = `
+"startDocument
+startElement,doc
+processingInstruction
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/004.xml 1`] = `
+"startDocument
+startElement,doc
+characters,<,1
+characters,?target some data>,18
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/005.xml 1`] = `
+"startDocument
+startElement,doc
+characters,<,1
+characters,?target some data?,18
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/006.xml 1`] = `
+"startDocument
+startElement,doc
+comment,<doc><!-- a comment -- another --></doc>{!r!}{!n!},9,22
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/007.xml 1`] = `
+"startDocument
+startElement,doc
+characters,&amp no refc,12
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/008.xml 1`] = `
+"startDocument
+startElement,doc
+characters,&.entity;,9
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/009.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!0!},5
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/010.xml 1`] = `
+"startDocument
+startElement,doc
+characters,A & B,5
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/011.xml 1`] = `
+"startDocument
+warning,attribute \\"a1\\" missed value!! \\"a1\\" instead!!
+startElement,doc,{'a1':'a1'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/012.xml 1`] = `
+"startDocument
+warning,attribute \\"v1\\" missed quot(\\")!!
+startElement,doc,{'a1':'v1'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/013.xml 1`] = `
+"startDocument
+error,element parse error: Error: attribute value no end '\\"' match
+characters,<,1
+characters,doc a1=\\"v1'>,12
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/014.xml 1`] = `
+"startDocument
+startElement,doc,{'a1':'<foo>'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/015.xml 1`] = `
+"startDocument
+error,element parse error: Error: attribute value missed!!
+characters,<,1
+characters,doc a1=>,8
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/016.xml 1`] = `
+"startDocument
+error,element parse error: Error: attribute value must after \\"=\\"
+characters,<,1
+characters,doc a1=\\"v1\\" \\"v2\\">,17
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/017.xml 1`] = `
+"startDocument
+startElement,doc
+startCDATA
+characters,<doc><![CDATA[</doc>{!r!}{!n!},14,-15
+endCDATA
+characters,<,1
+characters,![CDATA[,8
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/018.xml 1`] = `
+"startDocument
+startElement,doc
+characters,<,1
+characters,![CDATA [ stuff]]>,18
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/019.xml 1`] = `
+"startDocument
+warning,unclosed xml attribute
+startElement,doc
+endElement,doc
+error,end tag name: >{!n!} is not complete:undefined
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/020.xml 1`] = `
+"startDocument
+startElement,doc,{'a1':'A & B'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/021.xml 1`] = `
+"startDocument
+startElement,doc,{'a1':'a&b'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/022.xml 1`] = `
+"startDocument
+startElement,doc,{'a1':'&#123:'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/023.xml 1`] = `
+"startDocument
+error,element parse error: Error: invalid attribute:12
+characters,<,1
+characters,doc 12=\\"34\\">,12
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/024.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+error,element parse error: Error: invalid tagName:123
+characters,<,1
+characters,123>,4
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/025.xml 1`] = `
+"startDocument
+startElement,doc
+characters,]]>,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/026.xml 1`] = `
+"startDocument
+startElement,doc
+characters,]]]>,4
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/027.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+error,Unclosed comment
+characters,<,1
+characters,!-- abc{!r!}{!n!},9
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/028.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+characters,<,1
+characters,?a pi that is not closed{!r!}{!n!},26
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/029.xml 1`] = `
+"startDocument
+startElement,doc
+characters,abc]]]>def,10
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/030.xml 1`] = `
+"startDocument
+startElement,doc
+characters,A form feed () is not legal in data,36
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/031.xml 1`] = `
+"startDocument
+startElement,doc
+processingInstruction,pi,a form feed () is not allowed in a pi
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/032.xml 1`] = `
+"startDocument
+startElement,doc
+comment,<doc><!-- a form feed () is not allowed in a comment --></doc>{!r!}{!n!},9,45
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/033.xml 1`] = `
+"startDocument
+startElement,doc
+characters,abc{!1b!}def,7
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/034.xml 1`] = `
+"startDocument
+startElement,doc
+characters,A form-feed is not white space or a name character,50
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/035.xml 1`] = `
+"startDocument
+startElement,doc
+characters,1 ,2
+error,element parse error: Error: invalid tagName:
+characters,<,1
+characters, 2 but not in XML,17
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/036.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/037.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/038.xml 1`] = `
+"startDocument
+startElement,doc,{'x':'baz','x':'foo','y':'bar'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/039.xml 1`] = `
+"startDocument
+startElement,doc
+startElement,a
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/040.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/041.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/042.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/043.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/044.xml 1`] = `
+"startDocument
+startElement,doc
+endElement,doc
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/045.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+error,element parse error: Error: elements closed character '/' and '>' must be connected to
+characters,<,1
+characters,a/{!r!}{!n!},4
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/046.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+error,element parse error: Error: elements closed character '/' and '>' must be connected to
+characters,<,1
+characters,a/,2
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/047.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,a
+endElement,a
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/048.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+endElement,doc
+characters,{!r!}{!n!},2
+startCDATA
+characters,<doc>{!r!}{!n!}</doc>{!r!}{!n!}<![CDATA[]]>{!r!}{!n!},24
+endCDATA
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/049.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,a
+startCDATA
+characters,<doc>{!r!}{!n!}<a><![CDATA[xyz]]]></a>{!r!}{!n!}<![CDATA[]]></a>{!r!}{!n!}</doc>{!r!}{!n!},19,4
+endCDATA
+endElement,a
+characters,{!r!}{!n!},2
+startCDATA
+characters,<doc>{!r!}{!n!}<a><![CDATA[xyz]]]></a>{!r!}{!n!}<![CDATA[]]></a>{!r!}{!n!}</doc>{!r!}{!n!},41
+endCDATA
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/050.xml 1`] = `
+"startDocument
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/051.xml 1`] = `
+"startDocument
+comment,<!-- a comment -->{!r!}{!n!}<![CDATA[]]>{!r!}{!n!}<doc></doc>{!r!}{!n!},4,11
+characters,{!r!}{!n!},2
+startCDATA
+characters,<!-- a comment -->{!r!}{!n!}<![CDATA[]]>{!r!}{!n!}<doc></doc>{!r!}{!n!},29
+endCDATA
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/052.xml 1`] = `
+"startDocument
+comment,<!-- a comment -->{!r!}{!n!}&#32;{!r!}{!n!}<doc></doc>{!r!}{!n!},4,11
+characters,{!r!}{!n!} {!r!}{!n!},9
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/053.xml 1`] = `
+"startDocument
+warning,unclosed xml attribute
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/054.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY foo PUBLIC \\"some public id\\">{!r!}{!n!}]>{!r!}{!n!},42
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/055.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,doc>,4
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/056.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/057.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"whatever\\" -- a comment -->{!r!}{!n!}]>{!r!}{!n!},43
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/058.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 (foo,bar) #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},41
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/059.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 NMTOKEN v1>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/060.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 NAME #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/061.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e PUBLIC \\"whatever\\"\\"e.ent\\">{!r!}{!n!}]>{!r!}{!n!},41
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/062.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY foo\\"some text\\">{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/063.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,![INCLUDE[ ]]>{!r!}{!n!}]>{!r!}{!n!},20
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/064.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST e a1 CDATA\\"foo\\">{!r!}{!n!}]>{!r!}{!n!},31
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/065.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1(foo|bar) #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},40
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/066.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 (foo|bar)#IMPLIED>{!r!}{!n!}]>{!r!}{!n!},40
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/067.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 (foo)\\"foo\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/068.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a1 NOTATION(foo) #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},45
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/069.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!NOTATION eps SYSTEM \\"eps.exe\\">{!r!}{!n!},33
+comment,<!DOCTYPE doc [{!r!}{!n!}<!NOTATION eps SYSTEM \\"eps.exe\\">{!r!}{!n!}<!-- missing space before NDATA -->{!r!}{!n!}<!ENTITY foo SYSTEM \\"foo.eps\\"NDATA eps>{!r!}{!n!}]>{!r!}{!n!}<doc></doc>{!r!}{!n!},55,28
+characters,{!r!}{!n!},2
+characters,<,1
+characters,!ENTITY foo SYSTEM \\"foo.eps\\"NDATA eps>{!r!}{!n!}]>{!r!}{!n!},44
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/070.xml 1`] = `
+"startDocument
+comment,<!-- a comment ending with three dashes --->{!r!}{!n!}<doc></doc>{!r!}{!n!},4,37
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/071.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+error,entity not found:&e2;
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e3;
+characters,!ENTITY e2 \\"&e3;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e1;
+characters,!ENTITY e3 \\"&e1;\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+error,entity not found:&e1;
+characters,&e1;,4
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/072.xml 1`] = `
+"startDocument
+startElement,doc
+error,entity not found:&foo;
+characters,&foo;,5
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/073.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"whatever\\">{!r!}{!n!}]>{!r!}{!n!},27
+startElement,doc
+error,entity not found:&f;
+characters,&f;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/074.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+startElement,foo
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+characters,{!r!}{!n!},2
+startElement,foo
+error,entity not found:&e;
+characters,&e;,3
+endElement,foo
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/075.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+error,entity not found:&e2;
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e3;
+characters,!ENTITY e2 \\"&e3;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e1;
+characters,!ENTITY e3 \\"&e1;\\">{!r!}{!n!}]>{!r!}{!n!},24
+error,entity not found:&e1;
+startElement,doc,{'a':'&e1;'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/076.xml 1`] = `
+"startDocument
+error,entity not found:&foo;
+startElement,doc,{'a':'&foo;'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/077.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+error,entity not found:&bar;
+characters,!ENTITY foo \\"&bar;\\">{!r!}{!n!}]>{!r!}{!n!},26
+error,entity not found:&foo;
+startElement,doc,{'a':'&foo;'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/078.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&foo;
+characters,!ATTLIST doc a CDATA \\"&foo;\\">{!r!}{!n!}]>{!r!}{!n!},35
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/079.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+error,entity not found:&e2;
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e3;
+characters,!ENTITY e2 \\"&e3;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e1;
+characters,!ENTITY e3 \\"&e1;\\">{!r!}{!n!},20
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&e1;
+characters,!ATTLIST doc a CDATA \\"&e1;\\">{!r!}{!n!}]>{!r!}{!n!},34
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/080.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+error,entity not found:&e2;
+characters,!ENTITY e1 \\"&e2;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e3;
+characters,!ENTITY e2 \\"&e3;\\">{!r!}{!n!},20
+characters,<,1
+error,entity not found:&e1;
+characters,!ENTITY e3 \\"&e1;\\">{!r!}{!n!},20
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&e1;
+characters,!ATTLIST doc a CDATA #FIXED \\"&e1;\\">{!r!}{!n!}]>{!r!}{!n!},41
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/081.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e SYSTEM \\"nul\\">{!r!}{!n!}]>{!r!}{!n!},29
+error,entity not found:&e;
+startElement,doc,{'a':'&e;'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/082.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e SYSTEM \\"nul\\">{!r!}{!n!},25
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&e;
+characters,!ATTLIST doc a CDATA \\"&e;\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/083.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e SYSTEM \\"nul\\" NDATA n>{!r!}{!n!}]>{!r!}{!n!},37
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/084.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e SYSTEM \\"nul\\" NDATA n>{!r!}{!n!},33
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&e;
+characters,!ATTLIST doc a CDATA \\"&e;\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/085.xml 1`] = `
+"startDocument
+startDTD,doc,[,null.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/086.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY foo PUBLIC \\"[\\" \\"null.xml\\">{!r!}{!n!}]>{!r!}{!n!},40
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/087.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!NOTATION foo PUBLIC \\"[\\" \\"null.ent\\">{!r!}{!n!}]>{!r!}{!n!},42
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/088.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!},32
+characters,<,1
+characters,!ENTITY e '\\"'>{!r!}{!n!}]>{!r!}{!n!},20
+error,element parse error: Error: attribute value no end '\\"' match
+characters,<,1
+error,entity not found:&e;
+characters,doc a=\\"&e;>,11
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/089.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY % foo SYSTEM \\"foo.xml\\" NDATA bar>{!r!}{!n!}]>{!r!}{!n!},47
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/090.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+startElement,foo,{'a':'<'}
+endElement,foo
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/091.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!NOTATION n SYSTEM \\"n\\">{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % foo SYSTEM \\"foo.xml\\" NDATA n>{!r!}{!n!}]>{!r!}{!n!},45
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/092.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+startElement,foo,{'a':'&'}
+endElement,foo
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/093.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!0!},6
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/094.xml 1`] = `
+"startDocument
+processingInstruction,xml,VERSION=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/095.xml 1`] = `
+"startDocument
+processingInstruction,xml,encoding=\\"UTF-8\\" version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/096.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\"encoding=\\"UTF-8\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/097.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0' encoding=\\"UTF-8\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/098.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\" version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/099.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\" valid=\\"no\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/100.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\" standalone=\\"YES\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/101.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\" encoding=\\" UTF-8\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/102.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0 \\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/103.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"<foo>\\">{!r!}{!n!}]>{!r!}{!n!},28
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/104.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+startElement,foo
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/105.xml 1`] = `
+"startDocument
+processingInstruction,pi,stuff
+characters,{!r!}{!n!},2
+startCDATA
+characters,<?pi stuff?>{!r!}{!n!}<![CDATA[]]>{!r!}{!n!}<doc>{!r!}{!n!}</doc>{!r!}{!n!},23
+endCDATA
+characters,{!r!}{!n!},2
+startElement,doc
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/106.xml 1`] = `
+"startDocument
+processingInstruction,pi,data
+characters,{!r!}{!n!} ,7
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/107.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,![CDATA[]]>{!r!}{!n!}]>{!r!}{!n!},17
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/108.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+characters,<,1
+characters,![CDATA [  ]]>{!r!}{!n!},16
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/109.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/110.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"\\">{!r!}{!n!}]>{!r!}{!n!},19
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/111.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"foo='bar'\\">{!r!}{!n!}]>{!r!}{!n!},28
+warning,attribute \\"&e;\\" missed value!! \\"&e;\\" instead!!
+error,element parse error: Error: invalid attribute:&e;
+characters,<,1
+error,entity not found:&e;
+characters,doc &e;>,8
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/112.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+characters,<,1
+characters,![cdata[data]]>{!r!}{!n!},17
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/113.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY % foo \\"&\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/114.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY foo \\"&\\">{!r!}{!n!}]>{!r!}{!n!},22
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/115.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"&\\">{!r!}{!n!}]>{!r!}{!n!},24
+error,entity not found:&e;
+startElement,doc,{'a':'&e;'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/116.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"&#9\\">{!r!}{!n!}]>{!r!}{!n!},26
+startElement,doc
+error,entity not found:&e;
+characters,&e;7;,5
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/117.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"&\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+error,entity not found:&e;
+characters,&e;#97;,7
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/118.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"#\\">{!r!}{!n!}]>{!r!}{!n!},20
+startElement,doc
+error,entity not found:&e;
+characters,&&e;97;,7
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/119.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"&\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+error,entity not found:&e;
+characters,{!r!}{!n!}&e;#38;{!r!}{!n!},11
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/120.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"&\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+error,entity not found:&e;
+characters,{!r!}{!n!}&e;{!r!}{!n!},7
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/121.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY #DEFAULT \\"default\\">{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/122.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (a, (b) | c)?>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/123.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc ((doc?)))>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/124.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (doc|#PCDATA)*>{!r!}{!n!}]>{!r!}{!n!},34
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/125.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc ((#PCDATA))>{!r!}{!n!}]>{!r!}{!n!},31
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/126.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)+>{!r!}{!n!}]>{!r!}{!n!},30
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/127.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)?>{!r!}{!n!}]>{!r!}{!n!},30
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/128.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc CDATA>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/129.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc - - (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/130.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (doc?) +(foo)>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/131.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (doc?) -(foo)>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/132.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (a, (b, c), (d, (e, f) | g))?>{!r!}{!n!}]>{!r!}{!n!},49
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/133.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (a *)>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/134.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (a) *>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/135.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (a & b)?>{!r!}{!n!}]>{!r!}{!n!},28
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/136.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc O O (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},33
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/137.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc(#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},28
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/138.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (doc*?)>{!r!}{!n!}]>{!r!}{!n!},27
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/139.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc ()>{!r!}{!n!}]>{!r!}{!n!},22
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/140.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+error,element parse error: Error: invalid tagName:&#x309a;
+characters,<,1
+characters,゚>,9
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/141.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\",11
+error,element parse error: Error: invalid tagName:X&#xe5c;
+characters,<,1
+characters,X๜>,9
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/142.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!0!},4
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/143.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!1f!},5
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/144.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!ffff!},8
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/145.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!d800!},8
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/146.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,{!dc00!}{!dc00!},10
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/147.xml 1`] = `
+"startDocument
+characters,{!r!}{!n!},2
+processingInstruction,xml,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/148.xml 1`] = `
+"startDocument
+comment,<!-- -->{!r!}{!n!}<?xml version=\\"1.0\\"?>{!r!}{!n!}<doc></doc>{!r!}{!n!},4,1
+characters,{!r!}{!n!},2
+processingInstruction,xml,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/149.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+processingInstruction,xml,version=\\"1.0\\"
+characters,{!r!}{!n!}]>{!r!}{!n!},6
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/150.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+processingInstruction,xml,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/151.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+endElement,doc
+characters,{!r!}{!n!},2
+processingInstruction,xml,version=\\"1.0\\"
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/152.xml 1`] = `
+"startDocument
+processingInstruction,xml,encoding=\\"UTF-8\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/153.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY e \\",11
+processingInstruction,xml,encoding='UTF-8'
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/154.xml 1`] = `
+"startDocument
+processingInstruction,XML,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/155.xml 1`] = `
+"startDocument
+processingInstruction,xmL,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/156.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+processingInstruction,xMl,version=\\"1.0\\"
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/157.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!r!}{!n!},2
+processingInstruction,xmL
+characters,{!r!}{!n!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/158.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!NOTATION gif PUBLIC \\"image/gif\\" \\"\\">{!r!}{!n!},38
+characters,<,1
+characters,!ATTLIST #NOTATION gif a1 CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},47
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/159.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY e \\",11
+startCDATA
+characters,<!DOCTYPE doc [{!r!}{!n!}<!ELEMENT doc (#PCDATA)>{!r!}{!n!}<!ENTITY e \\"<![CDATA[Tim & Michael]]>\\">{!r!}{!n!}]>{!r!}{!n!}<doc>&e;</doc>{!r!}{!n!},64,13
+endCDATA
+characters,\\">{!r!}{!n!}]>{!r!}{!n!},8
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/160.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e \\"\\">{!r!}{!n!},17
+characters,<,1
+characters,!ENTITY foo \\"%e;\\">{!r!}{!n!}]>{!r!}{!n!},24
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/161.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY % e \\"#PCDATA\\">{!r!}{!n!},24
+characters,<,1
+characters,!ELEMENT doc (%e;)>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/162.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e1 \\"\\">{!r!}{!n!},18
+characters,<,1
+characters,!ENTITY % e2 \\"%e1;\\">{!r!}{!n!}]>{!r!}{!n!},26
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/163.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e \\"\\">{!r!}{!n!}]>{!r!}{!n!}%e;{!r!}{!n!},26
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/164.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e \\"\\">{!r!}{!n!}] %e; >{!r!}{!n!},26
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/165.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY% e \\"\\">{!r!}{!n!},16
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/166.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!ffff!},1
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/167.xml 1`] = `
+"startDocument
+startElement,doc
+characters,{!fffe!},1
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/168.xml 1`] = `
+"startDocument
+startElement,doc
+characters,���,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/169.xml 1`] = `
+"startDocument
+startElement,doc
+characters,���,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/170.xml 1`] = `
+"startDocument
+startElement,doc
+characters,����,4
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/171.xml 1`] = `
+"startDocument
+comment,<!-- {!ffff!} -->{!r!}{!n!}<doc></doc>{!r!}{!n!},4,3
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/172.xml 1`] = `
+"startDocument
+processingInstruction,pi,{!ffff!}
+characters,{!r!}{!n!},2
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/173.xml 1`] = `
+"startDocument
+startElement,doc,{'a':'{!ffff!}'}
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/174.xml 1`] = `
+"startDocument
+startElement,doc
+startCDATA
+characters,<doc><![CDATA[{!ffff!}]]></doc>{!r!}{!n!},14,1
+endCDATA
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/175.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ENTITY % e \\"{!ffff!}\\">{!r!}{!n!}]>{!r!}{!n!},22
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/176.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!n!}]>{!n!},27
+warning,unclosed xml attribute
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/177.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+characters,A{!ffff!},2
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/178.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+characters,!ATTLIST doc a CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},36
+error,element parse error: Error: attribute value no end '\\"' match
+characters,<,1
+characters,doc a=\\"\\">,13
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/179.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"\\">{!r!}{!n!}]>{!r!}{!n!},23
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/180.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!},25
+characters,<,1
+error,entity not found:&e;
+characters,!ATTLIST doc a CDATA \\"&e;\\">{!r!}{!n!},29
+characters,<,1
+characters,!ENTITY e \\"v\\">{!r!}{!n!}]>{!r!}{!n!},20
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/181.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"<![CDATA[\\">{!r!}{!n!},28
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+error,entity not found:&e;
+characters,&e;]]>,6
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/182.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ENTITY e \\"<!--\\">{!r!}{!n!},23
+characters,<,1
+characters,!ELEMENT doc (#PCDATA)>{!r!}{!n!}]>{!r!}{!n!},29
+startElement,doc
+error,entity not found:&e;
+characters,&e;-->,6
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/183.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA | foo*)* >{!r!}{!n!},34
+characters,<,1
+characters,!ELEMENT foo EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/184.xml 1`] = `
+"startDocument
+startDTD,doc
+endDTD
+characters,!ELEMENT doc (#PCDATA | (foo))* >{!r!}{!n!},35
+characters,<,1
+characters,!ELEMENT foo EMPTY>{!r!}{!n!}]>{!r!}{!n!},25
+startElement,doc
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/185.xml 1`] = `
+"startDocument
+processingInstruction,xml,version=\\"1.0\\" standalone=\\"yes\\"
+characters,{!r!}{!n!},2
+startDTD,doc,185.ent
+endDTD
+characters,{!r!}{!n!},2
+startElement,doc
+error,entity not found:&e;
+characters,&e;,3
+endElement,doc
+endDocument"
+`;
+
+exports[`xmltest/not-wf sax should parse xmltest/not-wf/sa/186.xml 1`] = `
+"startDocument
+startDTD,a
+endDTD
+characters,!ELEMENT a EMPTY>{!r!}{!n!},19
+characters,<,1
+characters,!ATTLIST a b CDATA #IMPLIED d CDATA #IMPLIED>{!r!}{!n!}]>{!r!}{!n!},51
+warning,attribute space is required\\"b\\"!!
+startElement,a,{'b':'c','d':'e'}
+endElement,a
+endDocument"
+`;
